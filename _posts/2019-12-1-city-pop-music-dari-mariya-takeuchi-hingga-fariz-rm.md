@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-category: Musik
+categories: [Musik]
 title: City Pop Music: Dari Mariya Takeuchi hingga Fariz RM
 ---
 

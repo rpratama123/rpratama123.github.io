@@ -1,15 +1,16 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+Hi there!
+I'm Rully. I like to experiment new things, especially about technologies and photography. You will find my posts about it here.
 
-### More Information
+#### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
+#### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rullypratama@outlook.com](mailto:rullypratama@outlook.com)

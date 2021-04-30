@@ -3,11 +3,15 @@ layout: post
 published: true
 title: "City Pop Music: Dari Mariya Takeuchi hingga Fariz RM"
 date: 2019-12-01 15:19:23 +0700
+category: music
+tags: ["city pop", "plastic love", "Mariya Takeuchi"]
+excerpt_separator: <!--more-->
 ---
 
 ![City Pop](/images/City_pop.jpg)
 
 Mariya Takeuchi pasti tidak menyangka bahwa musik City Pop kembali diminati. Lagu Plastic Love yang dibawakan olehnya 35 tahun yang lalu, saat ini bisa dianggap sebagai the best city pop ever. Aliran musik asal Jepang ini menghadirkan nuansa musik yang baru, berani dan optimis. Meski begitu tidak banyak orang tahu bahwa di Indonesia ada pula musisi dan musik dengan aliran serupa.
+<!--more-->
 
 ### Seperti apakah musik City Pop itu?
 Aliran musik City Pop membawa nilai filosofi tersendiri. City Pop hadir sebagai gambaran optimisme terhadap kemajuan ekonomi Jepang di tahun 80-an. Kala itu stereo system di mobil menjamur. Orang-orang menikmati musik ini sambil melintasi gemerlap lampu neon kota Tokyo. Oleh sebab itu, musik ini dijuluki City Pop.

@@ -28,7 +28,7 @@ Jalankan **Command Prompt** dengan cara klik Start, lalu ketikkan Command Prompt
 
 Lalu ketikkan baris perintah berikut ini dan tekan Enter:
 
-```Batchfile
+```
 shutdown -s -t 3600
 ```
 
@@ -68,7 +68,7 @@ Sementara di Linux, untuk mengakses terminal berbeda dari satu distro ke distro 
 
 Apabila aplikasi Terminal sudah terbuka, masukkan perintah berikut ini:
 
-```Shell
+```
 sudo shutdown -h -t 3600
 ```
 

@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 comment: true
 ---
 
-![Ilustrasi Laptop](images/2019/posts/shutdown/shutdown-0.jpg)
+![Ilustrasi Laptop](/images/2019/posts/shutdown/shutdown-0.jpg)
 
 Terkadang kamu dihadapkan dengan situasi seperti ini: komputer yang kamu gunakan sedang memproses sesuatu. Bisa jadi sedang render video nikahan mantan, atau sedang download film bajakan. Prosesnya memakan waktu yang tidak sebentar, tapi kamu sedang buru-buru janjian dengan gebetan.
 
@@ -22,7 +22,7 @@ Jangan khawatir, meski dalam bentuk *command line*, fitur ini sangat mudah digun
 
 ### Windows
 
-![Windows Run command](images/2019/posts/shutdown/shutdown-1.jpg)
+![Windows Run command](/images/2019/posts/shutdown/shutdown-1.jpg)
 
 Jalankan **Command Prompt** dengan cara klik Start, lalu ketikkan Command Prompt. Lebih mudah lagi kalian bisa mengaksesnya melalui menu Run, yaitu tekan **Win+R**, ketik **cmd**, lalu tekan Enter.
 
@@ -42,7 +42,7 @@ Berikut penjelasan untuk opsi yang dapat digunakan:
 | **-a**       | opsi ini dapat digunakan untuk membatalkan perintah shutdown yang sebelumnya telah dilakukan
 | **-t**       | opsi timer untuk shutdown. Apabila tidak diisi, komputer akan mati dalam 20 detik. Bila diisi **0**, maka perintah akan dieksekusi saat itu juga. Bisa juga diisi dengan angka dalam hitungan detik (misal 60 detik x 60 menit = 3600 detik untuk 1 jam)
 
-![Perintah shutdown di Windows](images/2019/posts/shutdown/shutdown-2-1.jpg)
+![Perintah shutdown di Windows](/images/2019/posts/shutdown/shutdown-2-1.jpg)
 
 Apabila sering digunakan, perintah tersebut juga bisa dibuat menjadi shortcut, lho! Shortcut ini nantinya dapat ditaruh di desktop dan dapat diakses dengan mudah.
 
@@ -64,7 +64,7 @@ Di macOS, untuk mengakses Terminal tekan tomobol **Command + Space** di keyboard
 
 Sementara di Linux, untuk mengakses terminal berbeda dari satu distro ke distro yang lain. Namun pada umumnya, terminal ada pada bagian **Utilities** di daftar aplikasi.
 
-![Jalankan Terminal di macOS](images/2019/posts/shutdown/shutdown-5.jpg)
+![Jalankan Terminal di macOS](/images/2019/posts/shutdown/shutdown-5.jpg)
 
 Apabila aplikasi Terminal sudah terbuka, masukkan perintah berikut ini:
 
@@ -83,7 +83,7 @@ Di macOS dan Linux, hanya user root yang bisa memanggil perintah shutdown. Oleh 
 | **-t**       | opsi timer untuk shutdown. Apabila tidak diisi, komputer akan mati dalam 20 detik. Bila diisi **0**, maka perintah akan dieksekusi saat itu juga. Bisa juga diisi dengan angka dalam hitungan detik (misal 60 detik x 60 menit = 3600 detik untuk 1 jam)
 | **time**     | selain dalam hitungan detik, waktu absolut juga dapat dimasukkan di sini dalam format hh:mm misalnya 23:30
 
-![Perintah shutdown di macOS](images/2019/posts/shutdown/shutdown-6.jpg)
+![Perintah shutdown di macOS](/images/2019/posts/shutdown/shutdown-6.jpg)
 
 Setelah perintah dimasukkan, tekan Enter, maka kamu akan dimintai untuk memasukkan password akun root. Tekan Enter sekali lagi setelah memasukkan password, maka komputer akan mati sesuai dengan waktu yang telah ditentukan.
 

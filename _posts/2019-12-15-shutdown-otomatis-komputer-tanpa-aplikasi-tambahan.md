@@ -6,7 +6,7 @@ date: 2019-12-15 17:19:23 +0700
 category: tutorial
 tags: ["shutdown otomatis", "shutdown windows", "tutorial shutdown otomatis"]
 excerpt_separator: <!--more-->
-comment: true
+comment: false
 ---
 
 ![Ilustrasi Laptop](/images/2019/posts/shutdown/shutdown-0.jpg)
@@ -50,7 +50,7 @@ Apabila sering digunakan, perintah tersebut juga bisa dibuat menjadi shortcut, l
 2. Akan muncul **"Type the location of the item:"**. Isi dengan baris perintah yang sama dengan contoh di atas. Bisa juga disesuaikan waktunya sesuai dengan keinginan. Lalu klik Next.
 3. Setelah itu, isikan nama untuk shortcut yang baru saja di buat. Agar mudah diingat, akan saya beri nama **Turn off 1 hour**. Klik Finish.
 
-![Shortcut shutdown otomatis dalam waktu 1 jam](images/2019/posts/shutdown/shutdown-3.jpg)
+![Shortcut shutdown otomatis dalam waktu 1 jam](/images/2019/posts/shutdown/shutdown-3.jpg)
 
 Sampai tahap ini, *shortcut* sudah berhasil di buat. Namun belum memiliki icon. Untuk mengubah icon-nya mudah. Klik kanan *shortcut* tersebut, lalu pilih **Properties**.
 

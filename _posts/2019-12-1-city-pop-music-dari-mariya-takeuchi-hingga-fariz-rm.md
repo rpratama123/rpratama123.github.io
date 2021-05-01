@@ -6,7 +6,7 @@ date: 2019-12-01 15:19:23 +0700
 category: music
 tags: ["city pop", "plastic love", "Mariya Takeuchi"]
 excerpt_separator: <!--more-->
-comment: true
+comment: false
 ---
 
 ![City Pop](/images/City_pop.jpg)

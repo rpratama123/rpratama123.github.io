@@ -11,4 +11,5 @@ Halo! Saya Rully. Saat ini saya bekerja di perusahaan *outsourcing* dengan spesi
 ### Hubungi saya melalui:
 
 [rullypratama@outlook.com](mailto:rullypratama@outlook.com)
+
 Atau melalui social media di bawah ini.

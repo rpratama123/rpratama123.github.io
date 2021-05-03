@@ -4,13 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-Hi there!
-I'm Rully. I like to experiment new things, especially about technologies and photography. You will find my posts about it here.
+![Rully Pratama](/images/about-me.jpg)
 
-#### More Information
+Halo! Saya Rully. Saat ini saya bekerja di perusahaan *outsourcing* dengan spesialisasi *contact center*. Meski begitu, saya memiliki passion yang besar di bidang teknologi dan fotografi. Kamu akan menemukan banyak tulisan saya mengenai keduanya di sini.
 
-A place to include any other types of information that you'd like to include about yourself.
-
-#### Contact me
+### Hubungi saya melalui:
 
 [rullypratama@outlook.com](mailto:rullypratama@outlook.com)
+Atau melalui social media di bawah ini.

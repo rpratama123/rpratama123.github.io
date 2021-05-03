@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Mencoba Google Camera di Ponsel Android non Google Pixel"
 date: 2019-12-28 19:19:23 +0700
 category: photography

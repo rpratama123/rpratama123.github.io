@@ -1,18 +1,18 @@
 ---
 layout: post
-published: false
+published: true
 title: "FreeBSD Sebagai Sistem Operasi Sehari-hari di Tahun 2021"
-date: 2021-05-24 21:19:23 +0700
+date: 2021-05-24 22:40:23 +0700
 category: linux
 tags: ["freebsd desktop", "sistem operasi freebsd", "freebsd sehari-hari"]
 excerpt_separator: <!--more-->
 comment: false
 locale: id_ID
-image: 
+image: /images/2021/posts/freebsd-2021/freebsd-desktop-small.jpg
 author: Rully Pratama
 ---
 
-<!--screenshot freebsd-->
+[![FreeBSD Desktop](/images/2021/posts/freebsd-2021/freebsd-desktop-small.jpg)](/images/2021/posts/freebsd-2021/freebsd-desktop.jpg)
 
 Apabila berbicara sistem operasi (OS) yang biasa digunakan dalam keseharian, saya yakin banyak orang menggunakan dan familiar dengan Windows. Selain itu ada pula yang menggunakan macOS. Sayangnya macOS pada dasarnya hanya bisa digunakan di perangkat besutan Apple saja. Lalu bagi yang antusias terhadap teknologi, pasti sudah tidak asing dengan GNU/Linux. Namun bagaimana dengan FreeBSD?
 <!--more-->

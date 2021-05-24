@@ -86,3 +86,9 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# jekyll-seo-tag properties
+
+twitter:
+  username: rullypratama
+  card: summary_large_image

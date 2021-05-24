@@ -7,6 +7,9 @@ category: tutorial
 tags: ["ubah warna hyperlink", "ganti warna hyperlink microsoft office"]
 excerpt_separator: <!--more-->
 comment: false
+locale: id_ID
+image: /images/2021/posts/formatting-link/ms_office_hyperlink_banner.jpg
+author: Rully Pratama
 ---
 
 ![Mengubah warna hyperlink di Microsoft Office](/images/2021/posts/formatting-link/ms_office_hyperlink_banner.jpg)

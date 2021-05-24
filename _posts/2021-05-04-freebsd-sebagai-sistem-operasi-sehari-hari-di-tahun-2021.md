@@ -126,3 +126,5 @@ Sebuah pengalaman yang menyenangkan bisa menggunakan FreeBSD sebagai desktop sel
 FreeBSD merupakan sistem operasi yang tangguh, aman dan stabil. Beberapa layanan besar seperti [Yahoo!](https://zer0.org/daemons/yahoobsd.html), [WhatsApp](https://freebsdfoundation.org/testimonial/whatsapp/), dan [Netflix](https://freebsdfoundation.org/testimonial/netflix/), menggunakan atau setidaknya pernah mempercayakan FreeBSD sebagai *backend server* mereka. Tapi kalau FreeBSD sebagai desktop OS? Sepertinya jarang didengar.
 
 Dari percobaan yang saya lakukan, saya menyimpulkan bahwa FreeBSD **bisa** digunakan untuk keseharian. Namun bukan berarti saya menyarankan. Sekali lagi, artikel ini bukan tutorial, namun lebih sebagai *proof of concept*, sehingga silakan menggunakan sistem operasi apa saja yang menurut kalian terbaik.
+
+Stay curious! ✨

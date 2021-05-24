@@ -2,11 +2,14 @@
 layout: post
 published: false
 title: "FreeBSD Sebagai Sistem Operasi Sehari-hari di Tahun 2021"
-date: 2021-05-04 21:19:23 +0700
+date: 2021-05-24 21:19:23 +0700
 category: linux
 tags: ["freebsd desktop", "sistem operasi freebsd", "freebsd sehari-hari"]
 excerpt_separator: <!--more-->
 comment: false
+locale: id_ID
+image: 
+author: Rully Pratama
 ---
 
 <!--screenshot freebsd-->

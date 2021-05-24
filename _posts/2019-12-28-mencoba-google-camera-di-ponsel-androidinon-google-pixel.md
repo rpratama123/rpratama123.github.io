@@ -7,6 +7,9 @@ category: photography
 tags: ["google camera"]
 excerpt_separator: <!--more-->
 comment: false
+locale: id_ID
+image: /images/2019/posts/gcam/GCam_thumb_facebook.jpg
+author: Rully Pratama
 ---
 
 ![Hasil dari Google Camera](/images/2019/posts/gcam/GCam_thumb_facebook.jpg)

@@ -7,6 +7,9 @@ category: music
 tags: ["city pop", "plastic love", "Mariya Takeuchi"]
 excerpt_separator: <!--more-->
 comment: false
+locale: id_ID
+image: /images/City_pop.jpg
+author: Rully Pratama
 ---
 
 ![City Pop](/images/City_pop.jpg)

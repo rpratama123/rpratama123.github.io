@@ -7,6 +7,9 @@ category: tutorial
 tags: ["shutdown otomatis", "shutdown windows", "tutorial shutdown otomatis"]
 excerpt_separator: <!--more-->
 comment: false
+locale: id_ID
+image: /images/2019/posts/shutdown/shutdown-0.jpg
+author: Rully Pratama
 ---
 
 ![Ilustrasi Laptop](/images/2019/posts/shutdown/shutdown-0.jpg)

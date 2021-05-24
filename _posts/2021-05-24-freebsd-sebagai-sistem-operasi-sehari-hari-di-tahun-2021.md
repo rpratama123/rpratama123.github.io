@@ -23,12 +23,12 @@ Di artikel saya kali ini, kita akan membahas kemungkinan digunakannya FreeBSD se
 
 Langsung saja kita masuk ke poin utama. Kita akan menggunakan FreeBSD 13.0. Sistem operasi desktop yang ideal di tahun 2021 harus bisa digunakan untuk hal-hal berikut ini:
 
-- [x] Tampilan GUI dan aksesoris bawaan sistem operasi
-- [x] Terhubung ke internet dan membuka situs media sosial
-- [x] Konsumsi multimedia (memutar video, YouTube, Netflix, Spotify, dsb.)
-- [x] Manipulasi dokumen dan *spreadsheet*
-- [x] Editing foto dan atau video secara sederhana
-- [x] Online Meeting
+* Tampilan GUI dan aksesoris bawaan sistem operasi
+* Terhubung ke internet dan membuka situs media sosial
+* Konsumsi multimedia (memutar video, YouTube, Netflix, Spotify, dsb.)
+* Manipulasi dokumen dan *spreadsheet*
+* Editing foto dan atau video secara sederhana
+* Online Meeting
 
 Yuk mari kita kupas satu per satu!
 
@@ -66,7 +66,7 @@ Konsumsi media berupa YouTube juga bisa dibilang lancar. Ini berkat dukungan ter
 
 ![Spotify tidak bisa dibuka di FreeBSD](/images/2021/posts/freebsd-2021/spotify-error.jpg)
 
-Masalah mulai muncul ketika FreeBSD digunakan untuk memutar media yang terproteksi oleh DRM seperti Netflix dan Spotifty. Pertama, tidak ada *native application* dari kedua platform tersebut di FreeBSD. Itu berarti tidak ada dukungan secara resmi dari penyedia media. Di sistem operasi lain, tanpa aplikasi khusus, Netflix dan Spotify masih tetap bisa diakses, meskipun melalui perambah internet saja. Namun sayangnya tidak di FreeBSD.
+Masalah mulai muncul ketika FreeBSD digunakan untuk memutar media yang terproteksi oleh DRM seperti Netflix dan Spotifty. Pertama, tidak ada *native application* dari kedua platform tersebut di FreeBSD. Itu berarti tidak ada dukungan secara resmi dari penyedia media. Di sistem operasi lain, tanpa aplikasi khusus, Netflix dan Spotify masih tetap bisa diakses meskipun melalui perambah internet saja. Namun sayangnya tidak di FreeBSD.
 
 Hal ini berujung ke masalah kedua, yaitu ketiadaan *DRM module* pada perambah internet yang tersedia di FreeBSD. Sehingga situs seperti Spotify dan Netflix menolak untuk bisa digunakan. Akan ada pesan kesalahan yang muncul seperti gambar di atas.
 
@@ -78,11 +78,11 @@ Ada dua aplikasi yang membuat hal ini terjadi, yaitu `spotify-tui` dan `spotifyd
 
 ### Manipulasi Dokumen dan *Spreadsheet*
 
-Bicara mengenai dokumen dan *spreadsheet* aplikasi *de facto* yang banyak digunakan oleh orang adalah Microsoft Office. Tanpa mempedulikan cara mendapatkan aplikasinya, baik itu legal maupun ilegal. Sama seperti di distribusi Linux, tidak ada aplikasi *native* dari Microsoft Office yang bisa di-install di FreeBSD. Sehingga menyisakan dua alternatif saja.
+Bicara mengenai dokumen dan *spreadsheet*, aplikasi *de facto* yang banyak digunakan oleh orang adalah Microsoft Office. Tanpa mempedulikan cara mendapatkan aplikasinya, baik itu legal maupun ilegal. Sama seperti di distribusi Linux, tidak ada aplikasi *native* dari Microsoft Office yang bisa di-install di FreeBSD. Sehingga menyisakan dua alternatif saja.
 
 #### Office Suite Native di FreeBSD
 
-Sama halnya seperti di Linux, ada beberapa office suite *open source* alternatif yang bisa digunakan di sini. Antara lain LibreOffice dan Apache OpenOffice. Keduanya memiliki fitur yang sangat mirip, karena pada dasarnya mereka [berasal dari akar yang sama](https://www.techrepublic.com/article/whats-the-difference-between-libreoffice-and-openoffice/). Meski begitu, secara tampilan dan kompatibilitas dengan berkas MS Office, LibreOffice lebih baik.
+Ada beberapa office suite *open source* alternatif yang bisa digunakan di sini. Antara lain LibreOffice dan Apache OpenOffice. Keduanya memiliki fitur yang sangat mirip, karena pada dasarnya mereka [berasal dari akar yang sama](https://www.techrepublic.com/article/whats-the-difference-between-libreoffice-and-openoffice/). Meski begitu, secara tampilan dan kompatibilitas dengan berkas MS Office, LibreOffice lebih baik.
 
 [![LibreOffice di FreeBSD](/images/2021/posts/freebsd-2021/freebsd-office-suite-small.jpg)](/images/2021/posts/freebsd-2021/freebsd-office-suite.jpg)
 

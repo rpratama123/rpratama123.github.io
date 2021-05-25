@@ -10,7 +10,6 @@ comment: false
 locale: id_ID
 image: /images/2021/posts/freebsd-2021/freebsd-desktop-small.jpg
 author: Rully Pratama
-canonical_url: "www.rullypratama.com/freebsd-sebagai-sistem-operasi-sehari-hari-di-tahun-2021/"
 ---
 
 [![FreeBSD Desktop](/images/2021/posts/freebsd-2021/freebsd-desktop-small.jpg)](/images/2021/posts/freebsd-2021/freebsd-desktop.jpg)

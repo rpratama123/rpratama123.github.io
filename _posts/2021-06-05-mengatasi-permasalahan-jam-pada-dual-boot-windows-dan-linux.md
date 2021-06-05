@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Mengatasi Permasalahan Jam Pada Dual Boot Windows dan Linux"
 date: 2021-06-05 22:40:23 +0700
 category: linux
@@ -12,7 +12,7 @@ image:
 author: Rully Pratama
 ---
 
-<!--gambar ilustrasi jam-->
+![Ilustrasi Dual Boot Ubuntu Linux dan Windows](/images/2021/posts/jam-dual-boot/time.webp)
 
 Bermain-main dengan Linux memang menyenangkan. Mencoba suatu sistem yang benar-benar baru dari keseharian merupakan keasyikan tersendiri. Namun permasalahan sering muncul, terlebih apabila Linux disandingkan dengan Windows di satu perangkat komputer melalui *dual boot*. Salah satunya permasalahan mengenai jam.
 <!--more-->

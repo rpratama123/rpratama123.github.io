@@ -8,7 +8,7 @@ tags: ["dual boot", "dual boot windows dan linux", "jam windows berubah"]
 excerpt_separator: <!--more-->
 comment: false
 locale: id_ID
-image: 
+image: /images/2021/posts/jam-dual-boot/time.webp
 author: Rully Pratama
 ---
 

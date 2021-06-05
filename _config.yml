@@ -9,7 +9,7 @@ name: Rully Pratama
 description: Another random thought
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/rpratama123/rpratama123.github.io/master/images/me-logo.png
+avatar: /images/me-logo.png
 
 #
 # Flags below are optional

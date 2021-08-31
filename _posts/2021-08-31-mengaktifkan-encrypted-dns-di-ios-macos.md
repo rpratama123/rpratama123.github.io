@@ -8,11 +8,11 @@ tags: ["encrypted dns", "secure dns", "dns over https"]
 excerpt_separator: <!--more-->
 comment: false
 locale: id_ID
-image: 
+image: /images/2021/posts/ios-encrypted-dns/secure-dns-thumbnail.jpg
 author: Rully Pratama
 ---
 
-<!-- main image -->
+![Encrypted DNS di iOS iPhone](/images/2021/posts/ios-encrypted-dns/secure-dns-thumbnail.jpg)
 
 Sebenarnya sejak **iOS 14 dan macOS Big Sur**, kedua sistem operasi ini sudah mendukung *encrypted DNS* atau DNS-over-HTTPS / TLS. Berbeda dengan Android, pengaturan *encrypted DNS* tidak bisa langsung diakses oleh pengguna. Yuk cari tahu untuk mengaktifkan fitur ini.
 <!--more-->
@@ -22,6 +22,8 @@ Sebenarnya sejak **iOS 14 dan macOS Big Sur**, kedua sistem operasi ini sudah me
 Setiap perangkat yang terhubung ke jaringan internet memiliki identitas yang unik. Salah satu identitas tersebut adalah IP address. Agar satu perangkat bisa berkomunikasi dengan perangkat yang lain, IP address perangkat harus diketahui terlebih dahulu.
 
 IP address berupa kombinasi angka yang tidak dapat diingat dengan mudah oleh manusia. Misalnya 103.102.166.224 atau 142.251.10.139. Nah agar manusia bisa mengakses internet dengan alamat tertentu, misalnya google.com atau wikipedia.org, maka harus ada mesin yang berfungsi untuk menerjemahkan alamat web ke IP address. Untuk itu DNS (Domain Name System) server diciptakan.
+
+[![Ilustrasi DNS Ternkripsi](/images/2021/posts/ios-encrypted-dns/secure-dns-illustration-small.webp)](/images/2021/posts/ios-encrypted-dns/secure-dns-illustration.webp)
 
 Sayangnya, alamat web yang kita tuju bisa dibaca dengan mudah oleh pihak lain, bisa jadi penyedia layanan internet, pengelola WIFI, atau bahkan orang jahat. Sebab alamat web yang kita tanyakan ke DNS server tidak terenkripsi. Untuk menghindari hal ini, sangat disarankan untuk menggunakan *encrypted DNS* di berbagai perangkat yang terhubung dengan internet.
 
@@ -48,12 +50,8 @@ Klik tautan berikut ini untuk mengunduh *configuration profile* dari DNS yang in
 
 Setelah mengunduh salah satu profile di atas, akan muncul pemberitahuan yang menyatakan bahwa website ini meminta izin untuk memasang profile di perangkat. Klik **Allow / Izinkan**. Setelah itu pergi ke **Setting / Pengaturan** -> **Profile Downloaded**. Terakhir klik install, lalu masukkan passcode perangkat.
 
-Selamat, perangkatmu sudah menggunakan *encrypted DNS* sehingga website yang kamu kunjungi lebih sukar dipantau atau diblokir oleh penyedia layanan internet!
+Selamat, perangkatmu sudah menggunakan *encrypted DNS* sehingga website yang kamu kunjungi lebih sukar dipantau atau diblokir oleh penyedia layanan internet! Sekarang seharusnya perangkatmu bisa membuka situs yang diblokir oleh ISP, misalnya [reddit.com](reddit.com).
 
-### Cara Mengecek Bahwa *Encrypted DNS* Sudah Terpasang Dengan Benar
+### Namun Perlu Diingat...
 
-Untuk mengecek fungsionalitasnya, bisa dilakukan dengan cara berikut ini:
-
-**Pertama**, coba buka situs yang diblokir oleh pemerintah / Kominfo, seperti [reddit.com](reddit.com).
-
-**Kedua**, 
+Meski penggunaan *encrypted DNS* bisa menghindarkan pengguna dari pelacakan situs yang dikunjungi oleh pihak ketiga, namun tidak menutup kemungkinan DNS server yang kita gunakan justru menyimpan riwayat perjalanan internet kita. Oleh karena itu, silakan pilih penyedia DNS server yang kalian paling percaya.

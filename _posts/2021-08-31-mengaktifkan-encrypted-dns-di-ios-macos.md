@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Cara Mengaktifkan Encrypted DNS di Perangkat iOS dan macOS"
 date: 2021-08-31 19:30:30 +0700
 category: tutorial

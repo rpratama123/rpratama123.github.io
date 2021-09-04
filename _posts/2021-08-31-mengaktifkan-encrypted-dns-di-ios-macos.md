@@ -55,3 +55,9 @@ Selamat, perangkatmu sudah menggunakan *encrypted DNS* sehingga website yang kam
 ### Namun Perlu Diingat...
 
 Meski penggunaan *encrypted DNS* bisa menghindarkan pengguna dari pelacakan situs yang dikunjungi oleh pihak ketiga, namun tidak menutup kemungkinan DNS server yang kita gunakan justru menyimpan riwayat perjalanan internet kita. Oleh karena itu, silakan pilih penyedia DNS server yang kalian paling percaya.
+
+### Sumber
+
+* [Paul Miller blog](https://paulmillr.com/posts/encrypted-dns/)
+* [Paul Miller Github](https://github.com/paulmillr/encrypted-dns)
+* [Andrew Glaze Github](https://github.com/Candygoblen123/encrypted-dns/)

@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "Install windows 11 di PC dan Laptop Tanpa TPM dan Secure Boot"
 date: 2021-10-24 19:30:30 +0700
 category: tutorial

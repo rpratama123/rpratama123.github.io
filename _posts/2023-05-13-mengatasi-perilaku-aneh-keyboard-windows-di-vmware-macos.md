@@ -1,12 +1,12 @@
 ---
 layout: post
-published: False
+published: True
 title: "Mengatasi Perilaku Aneh Keyboard Windows di VMWare Fusion macOS"
 date: 2023-05-13 19:06:00 +0700
 category: tutorial
 tags: ["hackintosh", "macos", "vmware fusion", "keyboard shortcut"]
 excerpt_separator: <!--more-->
-comment: false
+comment: False
 locale: id_ID
 image: /images/2023/posts/hackintosh-tricks/hackintosh-keyboard-tricks.jpeg
 author: Rully Pratama

@@ -1,7 +1,7 @@
 ---
 layout: post
 published: True
-title: "My 2023 Hackintosh Build"
+title: "Intel Core i5-12500 Hackintosh dengan Gigabyte B660M DS3H DDR4"
 date: 2023-05-08 13:21:00 +0700
 category: tutorial
 tags: ["hackintosh", "macos", "monterey", "intel 12th gen"]
@@ -105,5 +105,9 @@ Berikut ini beberapa tautan yang berguna:
 - [Panduan Instalasi Hackintosh Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 - [ProperTree (untuk menyunting file `config.plist`)](https://github.com/corpnewt/ProperTree)
+
+#### **Update 2023/05/13:**
+Saya menemukan tool [OpenCore Auxiliary Tool](https://github.com/ic005k/OCAuxiliaryTools) yang memiliki fungsi yang sama dengan ProperTree (yaitu menyunting file `config.plist`) namun dengan GUI yang sangat mudah digunakan. Selain itu tool ini juga bisa digunakan di Windows, Linux, dan macOS.
+
 
 Selamat mencoba! ✨

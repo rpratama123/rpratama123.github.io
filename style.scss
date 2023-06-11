@@ -24,14 +24,29 @@ html {
 }
 
 body {
-	background: $white;
+  background: $white;
   font-family: 'Open Sans',Arial,sans-serif;
   font-size: 15px;
   color: $darkGray;
   line-height: 1.7em;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  margin: 0;
+  flex-direction: column;
+  overflow-wrap: break-word;
 }
 
 .container {
+  flex: 1 0 auto;
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -80,9 +95,14 @@ p {
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
+
+  &:visited {
+    color: $purple;
+  }
+
+  &:hover {
     color: $blue;
+    text-decoration: underline;
   }
 }
 
@@ -117,17 +137,125 @@ strong, b {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
-// Fixes images in popup boxes from Google Translate
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: 14px !important;
+  margin-top: -20px;
+  text-align: center;
+}
+
 .gmnoprint img {
   max-width: none;
+}
+
+hr {
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 01px solid $lightGray;
 }
 
 .date {
   font-style: italic;
   color: $gray;
 }
+
+.post-categories {
+  font-weight: bold;
+  color: $gray;
+  margin-bottom: 40px;
+
+  .categories-button {
+    display: inline-block;
+    text-align: center;
+    border: 01px solid $paleGray;
+    border-radius: 03px;
+    background: #ffffff;
+    font-weight: 400;
+    color: $gray;
+    font-size: 16px !important;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 06px 12px;
+    margin-right: 04px;
+    cursor: pointer;
+    user-select: none;
+    transition: .4s;
+  }
+
+  .categories-button:hover {
+    color: $darkGray;
+    text-decoration: underline;
+  }
+
+  .categories-button:visited {
+    color: inherit;
+  }
+}
+
+.share-post {
+  isolation: isolate;
+  font-weight: bold;
+  color: $gray;
+  margin-bottom: 30px;
+  }
+
+.no-comments {
+  font-weight: bold;
+  color: $gray;
+  margin-bottom: 25px;
+}
+
+.related-posts {
+  .related-posts-heading{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: $gray;
+  }
+}
+
+.related-posts-post {
+  margin-bottom: auto;
+}
+
+.post-nav {
+  font-size: 18px !important;
+  margin-top: -10px;
+  margin-bottom: 35px;
+  clear: both;
+
+    p {
+      .post-nav-label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        color: $gray;
+      }
+
+      &:first-child {
+        padding-right: auto;
+        float: left;
+      }
+
+      &:last-child {
+        padding-left: auto;
+        float: right;
+      }
+    }
+}
+
+.category-head {
+  font-weight: bold;
+  color: $gray;
+}
+
 
 // Specify the color of the selection
 ::-moz-selection {
@@ -139,16 +267,160 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+blockquote {
+  background-color: $white;
+  color: $gray;
+  border-left: 04px solid #eeeeee;
+  padding-left: 15px;
+  font-size: 16px !important;
+  font-style: italic;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  i, em {
+    font-style: normal;
+  }
 }
 
-.clearfix:after {
-    clear: both;
+pre,
+code {
+  font-family: $code-font-family !important;
+  font-size: 15px !important;
+  color: #586e75;
+  border: 01px solid #dddddd;
+  border-radius: 03px;
+  background-color: #fdf6e3;
+}
+
+code {
+  padding: 01px 03.55px;
+}
+
+pre {
+  padding: 08px 12px;
+  overflow-x: auto;
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.highlight {
+  isolation: isolate;
+  border-radius: 03px;
+  background: #fdf6e3;
+  @extend %vertical-rhythm;
+
+  .highlighter-rouge & {
+    background: #fdf6e3;
+  }
+}
+
+.rouge-table {
+  margin-bottom: 0;
+  font-size: 100%;
+
+  &,
+  td,
+  th {
+    border: none;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .gutter {
+    vertical-align: top;
+    user-select: none;
+    opacity: .25;
+  }
+}
+
+.gist .gist-file {
+  isolation: isolate;
+  font-family: $code-font-family !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: 15px !important;
+}
+.gist code {
+  isolation: isolate;
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  border: 01px solid #dddddd;
+
+  & + table {
+    margin-top: 30px;
+  }
+
+  tr {
+    &:nth-child(even) {
+      background-color: #efefef;
+    }
+  }
+
+  th, td {
+    padding: 10px 15px;
+  }
+
+  th {
+    background-color: #efefef;
+    border: 01px solid #dddddd;
+  }
+
+  td {
+    border: 01px solid #dddddd;
+  }
+
+  tr,
+  td,
+  th {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  @include mobile {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+a[href^="#fn:"],
+a[href^="#fnref:"] {
+  display: inline-block;
+  margin-left: 0.1rem;
+  font-weight: bold;
+}
+
+.footnotes {
+  margin-top: 15px;
+  font-size: 14px !important;
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
 }
 
 /*********************/
@@ -246,6 +518,22 @@ nav {
   }
 }
 
+.nav-menu-item.active,
+a.nav-menu-item:focus {
+  text-decoration: none;
+  color: $mahogany;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+  }
+
+.clearfix:after {
+  clear: both;
+  }
+
 //
 // .main
 //
@@ -261,14 +549,6 @@ nav {
 }
 
 .post {
-  blockquote {
-    margin: 1.8em 1em;
-    border-left: 5px solid $gray;
-    padding: 0em 1em;
-    color: $gray;
-    font-size: 15px;
-    font-style: italic;
-  }
 
   .comments {
     margin-top: 10px;
@@ -276,12 +556,33 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px !important;
+    color: $mahogany;
+
+    a {
+      color: $mahogany;
+      text-decoration: none;
+    }
+
+      &:visited {
+        color: $mahogany;
+      }
+
+        &:hover {
+          color: $mahogany;
+          text-decoration: underline;
+        }
+  }
+
+  .reading-time {
+    text-transform: uppercase;
+    font-size: 14px !important;
+    color: $mahogany;
   }
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 30px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -290,31 +591,41 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  .social-icons {
+    margin-bottom: 08px;
+  }
+
+  .social-icon {
+    display: inline-block;
+    padding: 0 04px;
+    color: $gray;
+
+      &:hover {
+      color: $darkGray;
+      }
+  }
 }
 
-table {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 15px;
-  border-collapse: collapse;
-  width: 100%;
-}
+.copyright {
+  font-size: 12px !important;
 
-table td, table th {
-  border: 1px solid #ddd;
-  padding: 6px;
-}
-
-table tr:nth-child(even){background-color: #F2F2F2;}
-
-table th {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: left;
-  background-color: #1A1A1A;
-  color: white;
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "message";
+@import "share-buttons";
+@import "spotify-embed";
+@import "syntax";
+@import "pagination";
+@import "map";
+@import "search";
+@import "video";
+@import "mermaid";

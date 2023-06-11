@@ -31,9 +31,9 @@ Jalankan **Command Prompt** dengan cara klik Start, lalu ketikkan Command Prompt
 
 Lalu ketikkan baris perintah berikut ini dan tekan Enter:
 
-```
+{% highlight c %}
 shutdown -s -t 3600
-```
+{% endhighlight %}
 
 Berikut penjelasan untuk opsi yang dapat digunakan:
 
@@ -71,9 +71,9 @@ Sementara di Linux, untuk mengakses terminal berbeda dari satu distro ke distro 
 
 Apabila aplikasi Terminal sudah terbuka, masukkan perintah berikut ini:
 
-```
+{% highlight c %}
 sudo shutdown -h -t 3600
-```
+{% endhighlight %}
 
 Di macOS dan Linux, hanya user root yang bisa memanggil perintah shutdown. Oleh karena itu, kita menggunakan sudo. Lebih lanjut lagi, berikut ini opsi yang bisa digunakan:
 

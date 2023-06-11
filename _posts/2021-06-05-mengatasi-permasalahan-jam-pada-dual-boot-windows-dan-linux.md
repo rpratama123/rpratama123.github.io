@@ -41,15 +41,15 @@ Linux bisa diubah agar menyimpan dan membaca waktu dari RTC dalam zona waktu lok
 
 Caranya mudah. Buka `regedit` lalu tambahkan `DWORD` baru dan beri nilai hexadecimal `1` ke registry berikut ini:
 
-```
+{% highlight c %}
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation\RealTimeIsUniversal
-```
+{% endhighlight %}
 
 Anda juga bisa copy perintah berikut ini, lalu paste ke Command Prompt dengan akses Administrator:
 
-```
+{% highlight c %}
 reg add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /d 1 /t REG_DWORD /f
-```
+{% endhighlight %}
 
 Atau cara lebih mudahnya lagi, Anda bisa unduh berkas `.reg` berikut ini lalu jalanlan dengan cara `double click`. Akses ke akun Administrator mungkin dibutuhkan. [Unduh berkasnya di sini](/images/2021/posts/jam-dual-boot/windows_time_utc.reg).
 

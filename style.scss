@@ -93,16 +93,10 @@ p {
 }
 
 a {
-  color: $blue;
   text-decoration: none;
-
-  &:visited {
-    color: $purple;
-  }
 
   &:hover {
     color: $blue;
-    text-decoration: underline;
   }
 }
 
@@ -373,28 +367,24 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: #efefef;
+      background-color: #F2F2F2;
+	  vertical-align: middle;
+      text-align: center;
     }
   }
 
   th, td {
-    padding: 10px 15px;
+    padding: 6px 11px;
   }
 
   th {
-    background-color: #efefef;
+    background-color: #1A1A1A;
     border: 01px solid #dddddd;
+	color: white;
   }
 
   td {
     border: 01px solid #dddddd;
-  }
-
-  tr,
-  td,
-  th {
-    vertical-align: middle;
-    text-align: center;
   }
 
   @include mobile {
@@ -520,7 +510,7 @@ nav {
 .nav-menu-item.active,
 a.nav-menu-item:focus {
   text-decoration: none;
-  color: $mahogany;
+  color: $blue;
 }
 
 .clearfix:before,

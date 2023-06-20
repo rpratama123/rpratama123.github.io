@@ -355,37 +355,26 @@ pre {
 }
 
 table {
-  margin-bottom: 30px;
-  width: 100%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
   border-collapse: collapse;
-  overflow-x: auto;
-  border: 01px solid #dddddd;
+  width: 100%;
+}
 
-  & + table {
-    margin-top: 30px;
-  }
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
 
-  tr {
-    &:nth-child(even) {
-      background-color: #F2F2F2;
-	  vertical-align: middle;
-      text-align: center;
-    }
-  }
+table tr:nth-child(even){background-color: #F2F2F2;}
 
-  th, td {
-    padding: 6px 11px;
-  }
-
-  th {
-    background-color: #1A1A1A;
-    border: 01px solid #dddddd;
-	color: white;
-  }
-
-  td {
-    border: 01px solid #dddddd;
-  }
+table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #1A1A1A;
+  color: white;
+}
 
   @include mobile {
     display: block;

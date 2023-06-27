@@ -22,16 +22,23 @@ Pilihan saya jatuhkan ke monitor 1440p karena saya ingin upgrade dari 1080p yang
 Harapan saya pupus seketika ketika Windows secara otomatis memilih **Scale** sebesar 125% untuk monitor saya. Mari kita cari terlebih dahulu PPI monitor 1440p 24-inch dengan rumus berikut:
 
 $$PPI = \frac{diagonal~in~pixels}{diagonal~in~inches}$$
+
 $$PPI = \frac{\sqrt{width^{2}+height^{2}}}{diagonal~in~inches}$$
+
 $$PPI = \frac{\sqrt{2560^{2}+1440^{2}}}{24}$$
+
 $$PPI = \frac{\sqrt{8627200}}{24}$$
+
 $$PPI = \frac{2937.2}{24}$$
+
 $$PPI = 122.4$$
 
 Dengan *scaling* sebesar 125%, maka PPI yang dirasakan akan menjadi sebesar:
 
 $$Perceived~PPI = PPI + \left ( PPI \times \left ( 1-1.25 \right )\right )$$
+
 $$Perceived~PPI = 122.4 + \left ( 122.4 \times \left ( 1-1.25 \right )\right )$$
+
 $$Perceived~PPI = 91.8$$
 
 PPI sebesar 91.8 adalah PPI untuk monitor resolusi 1080p dengan diagonal 24-inch. Ya, Windows membuat monitor 1440p saya menjadi serasa seperti monitor 1080p! Parahnya dengan adanya *scaling* ini, toolbar icon, gambar yang tampil di perambah (*browser*), dan bahkan beberapa teks terlihat *blur*. Ini terjadi karena *scaling* yang dilakukan bukanlah *integer scaling*.
